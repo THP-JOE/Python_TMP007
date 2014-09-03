@@ -64,7 +64,7 @@ class TMP007(object):
 
                 # Check that mode is valid.
                 if mode not in [TMP007_CFG_1SAMPLE, TMP007_CFG_2SAMPLE, TMP007_CFG_4SAMPLE, TMP007_CFG_8SAMPLE, TMP007_CFG_16SAMPLE]:
-                        raise ValueError('Unexpected mode value {0}.  Set mode to one of TMP007_CFG_1SAMPLE, TMP007_CFG_2SAMPLE, TMP007_CFG_4SAMPLE, TMP007_CFG_8SAM$
+                        raise ValueError('Unexpected mode value {0}.  Set mode to one of TMP007_CFG_1SAMPLE, TMP007_CFG_2SAMPLE, TMP007_CFG_4SAMPLE, TMP007_CFG_8SAMPLE or TMP007_CFG_16SAMPLE'.format(mode))
                 self._mode = mode
                 # Create I2C device.
                 self._device = I2C.Device(address, busnum)
