@@ -26,7 +26,7 @@
 #logging.basicConfig(level=logging.DEBUG)
 
 import time
-import TMP007 as TMP007
+import TMP007.TMP007 as TMP007
 
 
 # Default constructor will pick a default I2C bus.
