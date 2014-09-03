@@ -15,3 +15,4 @@ See examples of usage in the examples folder.
 Please support Adafruit (though I have no connection to them) and open-source hardware by purchasing products from Adafruit!
 
 Written by Joe Gutting. MIT license, all text above must be included in any redistribution
+Credit to Adafruit for their Arduino TMP007 library as well as their Adafruit GPIO I2C library.  Also to Tony Dicola for his BMP python library which I used as a template.
